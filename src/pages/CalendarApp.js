@@ -6,8 +6,7 @@ export const CalendarApp = () => {
   return (
     <>
       <Navbar/>
-      <Calendar
-      />
+      {/* <Calendar/> */}
     </>
 
   )

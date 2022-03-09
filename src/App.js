@@ -1,13 +1,12 @@
 import { Provider } from 'react-redux';
 import { store } from './store/store';
 import './App.css';
+import { AppRouter } from './routers/AppRouter';
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-        <h1>Calendar App</h1>
-      </div>
+      <AppRouter/>
     </Provider>
 
   );
