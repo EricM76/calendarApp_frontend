@@ -18,7 +18,7 @@ export const fetchWithoutToken = (endpoint, data, method = 'GET') => {
 
 }
 
-export const fetchWidthToken = (endpoint, data, method = 'GET') => {
+export const fetchWithToken = (endpoint, data, method = 'GET') => {
 
     const url = `${baseURL}/${endpoint}`;
     const token = localStorage.getItem('token') || '';
